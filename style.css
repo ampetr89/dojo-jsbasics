@@ -7,35 +7,36 @@ body { /*reset*/
 	background-color: rgb(18, 53, 91);
 }
 
-div{
+header,main,footer,nav{
 	border-radius: 10px;
 	margin: 10px;
 }
 a{
 	color: rgb(82, 219, 214);
 }
-#header{
+header{
 	padding: 1px;
 	background-color: rgb(215, 38, 56);
 }
 
-#sidebar{
+nav{
 	padding: 10px;
 	width: auto;
 	background-color: rgb(8,126,139);
 	display: inline-block;
 	vertical-align: top;
 }
-#content{
-	padding: 10px;
-	width: 665px; /* = 885 - sidebar width */
+main{
+	padding: 5px;
+	width: 660px; /* = 885 - sidebar width */
 	background-color: rgb(12,24,33);
 	display: inline-block;
 }
-#foot{
+footer{
 	padding: 5px;
 	background-color: rgb(92,102,114);
 }
-.code{
+mark{
 	color: rgb(118,146,255);
+	background-color: unset;
 }
