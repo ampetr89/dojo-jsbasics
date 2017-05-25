@@ -2,11 +2,14 @@ body { /*reset*/
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
-	width: 970px;
 	color: rgb(191,215,234);
 	background-color: rgb(18, 53, 91);
 }
 
+header, footer{
+	width: 1200px;
+	padding: 1px 20px;
+}
 header,main,footer,nav{
 	border-radius: 10px;
 	margin: 10px;
@@ -15,25 +18,23 @@ a{
 	color: rgb(82, 219, 214);
 }
 header{
-	padding: 1px;
 	background-color: rgb(215, 38, 56);
 }
 
 nav{
-	padding: 10px;
-	width: auto;
+	padding: 20px;
+	width: 180px;
 	background-color: rgb(8,126,139);
 	display: inline-block;
 	vertical-align: top;
 }
 main{
-	padding: 5px;
-	width: 660px; /* = 885 - sidebar width */
+	padding: 5px 20px;
+	width: 955px; /* = 885 - sidebar width */
 	background-color: rgb(12,24,33);
 	display: inline-block;
 }
 footer{
-	padding: 5px;
 	background-color: rgb(92,102,114);
 }
 mark{
